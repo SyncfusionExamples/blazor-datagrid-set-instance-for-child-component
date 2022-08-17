@@ -3,7 +3,7 @@
 @using Syncfusion.Blazor.Grids
 @using Syncfusion.Blazor.Navigations
 @using Syncfusion.Blazor.Data
-@inject IJSRuntime JS
+
 
 <SfGrid DataSource="@Employees">
     <GridTemplates>
@@ -41,7 +41,6 @@
         if (args.Item.Id == "Click")
         {
             var SelectedRecords = await Grid[(int)EmployeeID].GetSelectedRecordsAsync();
-            await JS.InvokeVoidAsync("console.log", SelectedRecords);
         }
     }
     protected override void OnInitialized()
