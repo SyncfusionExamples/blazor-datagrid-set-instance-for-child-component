@@ -2,7 +2,7 @@
 
 ## Overview
 
-This sample demonstrates how to get and set a child grid instance in the Syncfusion Blazor DataGrid. When working with hierarchical DataGrid layouts, developers often need to access child grid instances programmatically to perform operations, update settings, or interact with nested grid content. The sample illustrates a practical implementation pattern for obtaining references to child DataGrid components and managing them within a hierarchy grid structure. This approach is useful when implementing advanced parent-child grid interactions and dynamic grid behavior.
+This sample demonstrates how to get and set a child grid instance in the Syncfusion [Blazor DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid). When working with hierarchical DataGrid layouts, developers often need to access child grid instances programmatically to perform operations, update settings, or interact with nested grid content. The sample illustrates a practical implementation pattern for obtaining references to child DataGrid components and managing them within a hierarchy grid structure. This approach is useful when implementing advanced parent-child grid interactions and dynamic grid behavior.
 
 ## Key Features
 
